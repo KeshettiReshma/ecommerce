@@ -14,7 +14,13 @@ This is a frontend-only eCommerce website that includes:
 - Cart page with 2 sample items and total amount
 - Navigation using React Router
 
-📝 *Note*: This project does not have real backend or dynamic cart logic. Cart page shows hardcoded items for layout/demo purposes only.
+📝 *Note:*
+- This project does not have real backend or dynamic cart logic.
+- Cart page shows hardcoded items for layout/demo purposes only.
+- This is a basic version with no backend.
+- User data is stored in localStorage.
+- After registration, users must return to the login page and enter details again.
+- Due to basic implementation, sometimes users need to enter login details twice before reaching the home page.
 
 ## 🌟 Features
 
@@ -34,9 +40,17 @@ This is a frontend-only eCommerce website that includes:
 
 ## 💻 Installation Instructions
 
-To run this project 
-
-### 1. Clone the Repository
+To run this project on your local machine:
 
 ```bash
+# 1. Clone the repository
 git clone https://github.com/KeshettiReshma/ecommerce.git
+
+# 2. Move into the project folder
+cd ecommerce
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm start

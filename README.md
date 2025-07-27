@@ -34,7 +34,7 @@ This is a frontend-only eCommerce website that includes:
 
 ## 💻 Installation Instructions
 
-To run this project on your local computer, follow these steps:
+To run this project 
 
 ### 1. Clone the Repository
 
